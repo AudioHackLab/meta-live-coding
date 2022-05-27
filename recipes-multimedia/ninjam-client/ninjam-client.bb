@@ -7,7 +7,7 @@ LICENSE = "GPL-2.0"
 INSANE_SKIP_${PN} += "ldflags"
 INSANE_SKIP_${PN} += "already-stripped"
 
-SRC_URI = "git://www-dev.cockos.com/ninjam/ninjam.git;protocol=http \
+SRC_URI = "git://github.com/AudioHackLab/ninjam.git;protocol=http \
 	file://gcc.patch \
 	file://start_ninjam.sh"
 SRCREV = "${AUTOREV}"
