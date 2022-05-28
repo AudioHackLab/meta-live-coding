@@ -3,7 +3,8 @@ HOMEPAGE = "http://portmedia.sourceforge.net/"
 LICENSE = "GPL-3.0"
 
 SRC_URI = "git://github.com/schollz/portmidi-1;protocol=git \
-	file://fix_hardcoded_output_directories.patch"
+	file://remove_test.patch \
+"
 SRCREV = "${AUTOREV}"
 
 S = "${WORKDIR}/git"
