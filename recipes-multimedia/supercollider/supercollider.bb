@@ -26,7 +26,7 @@ EXTRA_OECMAKE = "\
 "
 inherit cmake
 
-DEPENDS = "fftw jack libsndfile1 alsa-lib boost udev libxt"
+DEPENDS = "fftw jack libsndfile1 alsa-lib boost udev"
 RDEPENDS_${PN} = "libsndfile1 boost"
 TARGET_CC_ARCH += "-pthread" 
 
