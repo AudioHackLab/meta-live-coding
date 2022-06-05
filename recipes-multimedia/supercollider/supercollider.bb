@@ -2,8 +2,9 @@ DESCRIPTION = "SuperCollider is a programming language for real time audio synth
 HOMEPAGE = "http://supercollider.github.io/"
 LICENSE = "GPL-3.0"
 
-SRC_URI = "gitsm://github.com/supercollider/supercollider;protocol=git;branch=3.10"
-SRCREV = "6b1e9f4631d7d689c35ec175494993cff328c825"
+SRC_URI = "gitsm://github.com/supercollider/supercollider;protocol=git;branch=3.11 \
+"
+SRCREV = "0412d3b37390356faed6e6d469309dfd8c8a4cc7"
 
 S = "${WORKDIR}/git/"
 
