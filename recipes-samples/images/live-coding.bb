@@ -10,4 +10,6 @@ IMAGE_INSTALL += "\
     ninjam-client \
     ninjam-server \
     orca-c \
+    supercollider \
+    foxdot \
 "
