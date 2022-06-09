@@ -1,5 +1,5 @@
-SUMMARY = "A reference yocto image for building devices such as those produced by Moddevices, community contributed"
-HOMEPAGE = "https://github.com/MaxPayne86/meta-moddevices-contrib"
+SUMMARY = "A reference yocto image for live coding"
+HOMEPAGE = "https://audiohacklab.org/"
 LICENSE = "MIT"
 
 IMAGE_LINGUAS = "en-us"
